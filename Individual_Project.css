@@ -1,0 +1,244 @@
+*
+{   
+    margin: 0% ;
+    font-family: sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: rgb(15, 15, 131);
+}
+
+a:visited
+{
+    color: rgb(15, 15, 131);
+}
+
+a:hover{
+    color:red
+}
+
+#heading
+{
+    background-color: #FFFDD0;
+}
+
+#header
+{
+    line-height: 250%;
+    font-size: 189%;
+    color: rgb(15, 15, 131);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 0%;
+}
+
+#fst_menu
+{
+    display: block;
+    float: right;
+    padding-right: 10%;
+    line-height: 480%;
+}
+
+#logo
+{
+    display: flex;
+    float: left;
+    width: 8%; 
+    height: 7%;
+    padding-left: 2%;
+}
+
+#banner
+{
+    width: 100%;
+    height: 25%;
+}
+
+#banner_text
+{
+    margin-top: -25%;
+    font-size: 250%;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#banner_text2
+{
+    margin-top: 2%;
+    font-size: 250%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 7%;
+}
+
+#search_box
+{
+    border: 1px black solid;
+    border-radius: 17px;
+    width: 30%;
+    height: 45px;
+    margin-left: 6%;
+    font-size: 120%;
+    padding-left: 1%;
+    margin-top: 2%;
+}
+
+#submit_button
+{
+    border: 1px black solid;
+    border-radius: 17px;
+    /* width: %; */
+    height: 35px;
+    margin-left: 0%;
+    font-size: 100%;
+    padding-left: 0.5%;
+    margin-top: 2%;
+}
+
+#subheading
+{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 200%;
+    font-size: 300%;  
+}
+
+#boxes
+{
+    width: 25%;
+    height: 450px;
+    border: 1px rgb(215, 236, 255) solid;
+    background-color: aliceblue;
+    border-radius: 7px;
+    float: left;
+    margin-left: 6%;
+    
+}
+
+#boxes_img
+{
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#boxes_text
+{
+    text-align: center;
+    padding-top: 7%;
+    line-height: 190%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#boxes_button
+{
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    background-color: white;
+    border: 1px blue solid ;
+    border-radius: 7px;
+    color: blue;
+}
+
+                /* About the Agent sections begins from here */
+
+#about_agent
+{
+    text-align: center;
+    line-height: 300%;
+}
+
+#agent_section
+{
+    margin-top: 32%;
+}
+
+#agent_quick_intro
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    line-height: 180%;
+}
+
+#agent
+{
+    /* border: 1px rgb(174, 174, 247) solid;
+    background-color: rgb(236, 236, 248); */
+    width: auto;
+    height: fit-content;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#agent_img
+{
+    border: 2px red solid;
+    margin-right: 10%;
+}
+
+#agent_name
+{
+    line-height: 250%;
+}
+
+#agent_info
+{
+    line-height: 190%;
+    letter-spacing: 0px;
+    padding-top: 2%;
+}
+
+#agent2_img
+{
+    width: 22%;
+    border: 2px red solid;
+    margin-left: 10%;
+}
+
+        /* Agent Section Ends */
+
+        /* Footer Section Begins */
+
+#end_box
+{
+    border: 1px #FFFDD0 solid;
+    background-color: #FFFDD0;
+    width: auto;
+    height: fit-content;
+}
+
+#footer_banner
+{
+    width: 100%;  
+}
+
+#footer_menu
+{
+    text-align: center;
+    padding-top: 2%;
+}
+
+#follow_us
+{
+    text-align: center;
+    font-size: 110%;
+    padding-top: 5%;
+}

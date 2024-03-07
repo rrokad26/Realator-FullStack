@@ -1,0 +1,107 @@
+*
+{   
+    margin: 0% ;
+    font-family: sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: rgb(15, 15, 131);
+}
+
+a:visited
+{
+    color: rgb(15, 15, 131);
+}
+
+a:hover{
+    color:red
+}
+
+#heading
+{
+    background-color: #FFFDD0;
+}
+
+#header
+{
+    line-height: 250%;
+    font-size: 189%;
+    color: rgb(15, 15, 131);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 0%;
+}
+
+#fst_menu
+{
+    display: block;
+    float: right;
+    padding-right: 10%;
+    line-height: 480%;
+}
+
+#logo
+{
+    display: flex;
+    float: left;
+    width: 8%; 
+    height: 7%;
+    padding-left: 2%;
+}
+
+        /* Main Section Begins from here */
+        
+        /* SiteMap section begins from here */
+
+#sitemap
+{
+    margin-left: 20%;
+    line-height: 300%;
+    width: 10%;
+    float: left;
+}
+
+#credits
+{
+    width: 50%;
+    float: left;
+    margin-left: 20%;
+    
+    line-height: 300%;
+}
+
+        /* The main content ends here */
+
+                /* Footer Section Begins */
+
+#end_box
+{
+    border: 1px #FFFDD0 solid;
+    background-color: #FFFDD0;
+    width: auto;
+    height: fit-content;
+}
+
+#footer_banner
+{
+    width: 100%;  
+}
+
+#footer_menu
+{
+    text-align: center;
+    padding-top: 2%;
+}
+
+#follow_us
+{
+    text-align: center;
+    font-size: 110%;
+    padding-top: 5%;
+}
