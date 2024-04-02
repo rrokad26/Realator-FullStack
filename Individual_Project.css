@@ -11,12 +11,12 @@
 a
 {
     text-decoration: none;
-    color: rgb(15, 15, 131);
+    color: white;
 }
 
 a:visited
 {
-    color: rgb(15, 15, 131);
+    color: white;
 }
 
 a:hover{
@@ -25,14 +25,15 @@ a:hover{
 
 #heading
 {
-    background-color: #FFFDD0;
+    background-color: #303642;
+    color: white;
 }
 
 #header
 {
     line-height: 250%;
     font-size: 189%;
-    color: rgb(15, 15, 131);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     padding-left: 0%;
@@ -44,6 +45,7 @@ a:hover{
     float: right;
     padding-right: 10%;
     line-height: 480%;
+    color: white;
 }
 
 #logo
@@ -58,18 +60,18 @@ a:hover{
 #banner
 {
     width: 100%;
-    height: 25%;
+    height: 600px;
 }
 
 #banner_text
 {
     margin-top: -25%;
     font-size: 250%;
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     text-align: left;
-    margin-left: 10%;
+    padding-left: 5%;
 }
 
 #banner_text2
@@ -80,7 +82,7 @@ a:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     text-align: left;
-    margin-left: 7%;
+    padding-left: 5%;
 }
 
 #search_box
@@ -109,6 +111,7 @@ a:hover{
 
 #subheading
 {
+    margin-top: 15%;
     color: black;
     font-size: xx-large;
     text-align: center;
@@ -192,6 +195,7 @@ a:hover{
 {
     border: 2px red solid;
     margin-right: 10%;
+    width: 25%;
 }
 
 #agent_name
@@ -217,23 +221,20 @@ a:hover{
 
         /* Footer Section Begins */
 
-#end_box
-{
-    border: 1px #FFFDD0 solid;
-    background-color: #FFFDD0;
-    width: auto;
-    height: fit-content;
-}
+
 
 #footer_banner
 {
-    width: 100%;  
+    width: 100%;
+    height: 600px;  
 }
 
 #footer_menu
 {
+    margin-top: -30%;
     text-align: center;
     padding-top: 2%;
+    color: white;
 }
 
 #follow_us
@@ -241,4 +242,5 @@ a:hover{
     text-align: center;
     font-size: 110%;
     padding-top: 5%;
+    color: white;
 }
